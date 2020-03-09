@@ -10,7 +10,7 @@ public class LoginForm {
     private String username;
     private String password;
     
-	public UsernamePasswordAuthenticationToken getAuthenticationManager() {
+	public UsernamePasswordAuthenticationToken getAuthentication() {
 		return new UsernamePasswordAuthenticationToken(username, password);
 	}
 }
