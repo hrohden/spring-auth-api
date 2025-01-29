@@ -27,7 +27,8 @@ public class SpringSecurityConfiguration {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/public").permitAll()  // Public endpoint
+                        .requestMatchers("/public/**").permitAll()  // Public endpoint
+                        .requestMatchers("/h2-console/**").permitAll()
                         .requestMatchers(HttpMethod.POST, "/api/auth").permitAll()
                         .anyRequest().authenticated()  // All other requests require authentication
                 )
