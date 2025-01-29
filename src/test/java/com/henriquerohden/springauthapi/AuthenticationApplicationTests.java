@@ -1,10 +1,10 @@
-package br.com.henriquerohden.springauthapi;
+package com.henriquerohden.springauthapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class AuthenticationApplicationTests {
 
 	@Test
 	void contextLoads() {

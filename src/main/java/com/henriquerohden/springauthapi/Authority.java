@@ -1,4 +1,4 @@
-package br.com.henriquerohden.springauthapi;
+package com.henriquerohden.springauthapi;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package br.com.henriquerohden.springauthapi;
+package com.henriquerohden.springauthapi;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
